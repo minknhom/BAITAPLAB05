@@ -1,6 +1,7 @@
 # BAITAPLAB05
 
-* donet watch run
-* mysql
+* vscode : donet watch run
+* db : mysql
+
 
 
