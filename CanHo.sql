@@ -45,3 +45,22 @@ add constraint FK_NV_BT2 foreign key(MaTB) references ThietBi(MaTB);
 
 alter table NV_BT 
 add constraint FK_NV_BT3 foreign key(MaCH) references CanHo(MaCH);
+
+
+-- insert du lieu
+insert into nhanvien values 
+("nv01", "Nguyen Nhat Minh", "7355608", "nam"),
+("nv02", "Nguyen Thi Minh", "7355608", "nu");
+
+insert into CanHo values
+("1", "khach san"),
+("2", "nha nghi");
+
+insert into ThietBi values
+("1", "Dieu hoa"),
+("2", "Quat");
+
+insert into NV_BT values 
+("nv01", "1", "1", 1, "2021-11-28"),
+("nv01", "2", "2", 2, "2021-11-28"),
+("nv02", "2", "1", 1, "2021-11-28");
