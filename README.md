@@ -1,3 +1,6 @@
 # BAITAPLAB05
 
-## donet watch run 
+* donet watch run
+* mysql
+
+
